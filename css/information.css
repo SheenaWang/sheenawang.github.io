@@ -1,0 +1,95 @@
+.jumbotron{
+	margin-top:50px;
+	background:url(images/bg.jpg);
+	color:#ccc;
+	margin-bottom:0;
+}
+.jumbotron h1{
+	font-size:26px;
+	padding:0 0 0 20px;
+}
+.jumbotron h4{
+	font-size:15px;
+	padding:0 0 0 20px;
+}
+.info-content h4{
+	color:#333;
+	padding:2px 0 0 0;
+	font-size:14px;
+}
+.info-content p{
+	line-height:1.6;
+}
+/* 超小设备（手机，小于 768px） */
+/* Bootstrap 中默认情况下没有媒体查询 */
+
+/* 小型设备（平板电脑，768px 起） */
+@media (min-width: 768px) {
+.jumbotron h1{
+	font-size:30px;
+}
+.jumbotron h4{
+	font-size:16px;
+}	
+.info-content h4{
+	font-size:16px;
+	overflow:hidden;
+	white-space:nowrap;
+	text-overflow:ellipsis;
+}
+	 }
+
+/* 中型设备（台式电脑，992px 起） */
+@media (min-width: 992px) {
+	.jumbotron h1{
+	font-size:33px;
+}
+.jumbotron h4{
+	font-size:17px;
+}
+.info-content h4{
+	font-size:18px;
+}
+	}
+
+/* 大型设备（大台式电脑，1200px 起） */
+@media (min-width: 1200px) {
+.jumbotron h1{
+	font-size:36px;
+}
+.jumbotron h4{
+	font-size:18px;
+}
+.info-content h4{
+	font-size:20px;
+}
+}
+	
+#information{
+	background-color:#eee;
+	padding:40px 10px;
+}
+.info-content{
+	background-color:#fff;
+	margin-bottom:20px;
+	box-shadow:2px 2px 3px #ccc;
+}
+.info-content img{
+	margin:12px 0;
+}
+/* 出现问题：与左边并拢	*/
+.info-right{
+	background-color:#fff;
+	box-shadow:2px 2px 3px #ccc;
+}
+.info-right blockquote{
+	margin:0;
+	padding:0;
+}
+.info-right h2{
+	font-size:20px;
+	color:#333;
+}
+.info-right img{
+	padding-left:20px;
+}

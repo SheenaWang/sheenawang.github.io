@@ -1,0 +1,147 @@
+body{
+	font-family:Verdana, Geneva, sans-serif;
+	color:#666;
+}
+.navbar-brand{
+	padding:0;
+}
+#myCarousel{
+	margin-top:50px;
+}
+.carousel-inner img{
+	margin:0 auto;
+}
+.carousel-control{
+	font-size:100px;
+/*	line-height:320px;	这样设置无法实现响应式	*/
+}
+.tab-h2{
+	font-size:20px;
+	text-align:center;
+	letter-spacing:1px;
+	color:#0059b2;
+	}
+.tab-p{
+	font-size:15px;
+	text-align:center;
+	letter-spacing:1px;
+	color:#999;
+}
+.tab1{
+	margin:30px 0;
+	color:#666;
+}
+
+.media img{
+	width:90px;
+}
+.tab1 .media-heading{
+	margin:5px 0 10px 0;
+	}
+.col{
+	padding:20px;
+}
+.tab1 .container{
+	padding:0 50px;
+}
+.tab2,.tab3{
+	text-align:center;
+}
+.tab2 .container{
+	padding:0 50px;
+}
+.tab2 img{
+	width:40%;
+}
+.tab2 .row{
+	padding:20px 0;
+}
+.tab3 .row{
+	padding:20px;
+}
+.tab3 .container{
+	padding:0 50px;
+
+}
+.tab3 img{
+	width:40%;
+	}
+.text h3{
+	font-size:20px;
+}
+.text p{
+	font-size:14px;
+}
+.tab1 .row{
+	padding:0 50px;
+}
+/*注意媒体查询，自适应字体大小等	*/
+
+/* 超小设备（手机，小于 768px） */
+/* Bootstrap 中默认情况下没有该媒体查询，因为已移动端为优先 */
+
+/* 小型设备（平板电脑，768px 起） */
+@media (min-width:768px) {
+	.tab-h2{
+	font-size:26px;
+	}
+.tab-p{
+	font-size:16px;
+}
+.text h3{
+	font-size:22px;
+}
+.text p{
+	font-size:15px;
+
+}
+
+.tab2-text{
+	float:left;
+	}
+.tab2-img{
+	float:right;
+}
+}
+
+/* 中型设备（台式电脑，992px 起） */
+@media (min-width:992px) {
+	.tab-h2{
+	font-size:28px;
+	}
+.tab-p{
+	font-size:17px;
+}
+	 
+.text h3{
+	font-size:24px;
+}
+.text p{
+	font-size:16px;
+}}
+/* 大型设备（大台式电脑，1200px 起） */
+@media (min-width: 1200px) {
+.tab-h2{
+	font-size:30px;
+	}
+.tab-p{
+	font-size:18px;
+}
+.text h3{
+	font-size:26px;
+}
+.text p{
+	font-size:18px;
+}
+}
+
+.tab2{
+	background:#eee;
+}
+footer{
+	text-align:center;
+	padding:20px;
+	background-color:#666;
+	border-top:1px solid #ccc;
+	color:#eee;
+}
