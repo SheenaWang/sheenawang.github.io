@@ -1,0 +1,230 @@
+::selection{	
+	color:#38f;
+}
+::-moz-selection{
+	color:#38f;
+}
+::-webkit-selection{
+	color:#38f;
+}
+body{
+	font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+	background-color:#eee;
+	color:#333;
+	font-size:16px;
+	letter-spacing:1px;
+}
+section a{
+	text-decoration:none;
+	color:teal;
+}
+strong{
+	color:teal;
+}
+header{
+	background-color:#333;
+	color:#fff;
+	margin-top:10px;
+}
+.container{
+	box-shadow:5px 5px 4px #ccc;
+}
+
+.ul-content{
+	font-size:18px;
+	margin-top:10px;
+	padding:10px 45px 30px;
+}
+.ul-content a{
+	text-decoration:none;
+	color:#fff;
+}
+header .pull-left img{
+	margin: 10px 0 10px 45px;
+}
+.ul-content .tel{
+	list-style-image:url(../images/tel.png);
+	line-height:22px;
+}
+.ul-content .email{
+	list-style-image:url(../images/email.png);
+}
+.ul-content .github{
+	list-style-image:url(../images/github.png);
+}
+.ul-content .zcool{
+	list-style-image:url(../images/zcool.png);
+}
+.ul-content .local{
+	list-style-image:url(../images/local.png);
+}
+.info-content{
+	padding-right:60px;
+	padding-left:60px;
+	text-align:center;
+}
+.info-content h1{
+	font-size:48px;
+	font-weight:600;
+}
+.info-content h3{
+	font-size:18px;
+	font-weight:lighter;
+}
+
+/*	正文部分	*/
+.a{
+	border-left:4px solid #333;
+}
+section{
+	background-color:#fff;
+}
+
+.sec-title-line{
+	background-color:#333;
+	line-height:1.6;	
+	color:#fff;
+	font-size:16px;
+	border-radius:0 6px 6px 0 ;
+}
+.sec-title h3{
+	font-weight:bold;
+	padding:40px 0 0 0 ;
+}
+.sec-content h4{
+	font-weight:bold;
+	font-size:16px;
+	padding-left:20px;
+}
+.sec-content p{
+	font-size:16px;
+}
+.content-text{
+	padding:0 20px;
+}
+.line{
+	border-left:4px solid #333;
+	padding-left:0 !important;
+}
+.small-title{
+	margin-left:20px;
+}
+/*	以下是对正文列表做的css	*/
+.sec-content-1 ul{
+	list-style-image:url(../images/tip.png);
+}
+.sec-content-2 ul{
+	list-style-image:url(../images/skill.png);
+}
+.sec-content-3 ul{
+	list-style-image:url(../images/award.png);
+}
+.sec-content-4 ul{
+	list-style-image:url(../images/edu.png);
+	padding-left:30px;
+}
+.sec-content-5 ul{
+	list-style-image:url(../images/lang_2.png);
+	margin-bottom:2px;
+}
+section ul{
+	padding-bottom:20px;
+	padding-left:23px;
+	padding-right:20px;
+}
+/*	正文列表css结束	*/
+.sec-content-5 li{
+	margin-bottom:0;
+	padding-bottom:0;
+}
+section .row{
+	margin-bottom:20px;
+}
+
+section a:hover{
+	color:#38f;
+}
+
+footer{
+	text-align:center;
+	margin:30px 0;
+}
+footer p{
+	padding:0px;
+	margin:0;
+}
+.layout{
+	padding:0 15px ;
+}
+.layout img{
+	padding:50px 0 0 0;
+	}
+section .media:first-child {
+	margin:0 0 0 -32px;
+}
+
+.line::after {
+    font-family: FontAwesome;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    transform: translate(0,0);
+    background-color: #333;
+    color: #fff;
+    border-radius: 100%;
+    float: left;
+    width: 14px;
+    height: 14px;
+    padding: 0;
+    text-align: center;
+    line-height: 14px;
+    font-size: 14px;
+    content: "";
+    margin-left: -9px;
+    margin-top: -11px;
+}
+
+/*	设置结束	*/
+
+@media (min-width: 768px) {
+	.info-content h1{
+		font-size:56px;
+	}
+	.info-content h3{
+		font-size:24px;
+	}
+	.info-content{
+		text-align:left;
+	 }
+	 .layout{
+	padding:0 20px ;
+}
+}
+/* 中型设备（台式电脑，992px 起） */
+@media (min-width: 992px) {
+	.info-content h1{
+		font-size:64px;
+	}
+	.info-content h3{
+		font-size:30px;
+	}
+	.info-content{
+		text-align:right;
+	 }
+	 .layout{
+	padding:0 30px ;
+}
+	}
+
+/* 大型设备（大台式电脑，1200px 起） */
+@media (min-width: 1200px) {
+	.info-content h1{
+		font-size:72px;
+	}
+	.info-content h3{
+		font-size:36px;
+	}
+	.layout{
+	padding:0 40px ;
+}
+}
