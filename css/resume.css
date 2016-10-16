@@ -1,5 +1,5 @@
 *{
-	font-family: Microsoft YaHei;
+	font-family: Microsoft YaHei !important;
 }
 ::selection{	
 	color:#38f;
