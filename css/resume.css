@@ -1,3 +1,6 @@
+*{
+	font-family: Microsoft YaHei;
+}
 ::selection{	
 	color:#38f;
 }
@@ -72,7 +75,7 @@ header .pull-left img{
 	font-weight:lighter;
 }
 
-/*	正文部分	*/
+/*	脮媒脦脛虏驴路脰	*/
 .a{
 	border-left:4px solid #333;
 }
@@ -109,7 +112,7 @@ section{
 .small-title{
 	margin-left:20px;
 }
-/*	以下是对正文列表做的css	*/
+/*	脪脭脧脗脢脟露脭脮媒脦脛脕脨卤铆脳枚碌脛css	*/
 .sec-content-1 ul{
 	list-style-image:url(../images/tip.png);
 }
@@ -132,7 +135,7 @@ section ul{
 	padding-left:23px;
 	padding-right:20px;
 }
-/*	正文列表css结束	*/
+/*	脮媒脦脛脕脨卤铆css陆谩脢酶	*/
 .sec-content-5 li{
 	margin-bottom:0;
 	padding-bottom:0;
@@ -184,7 +187,7 @@ section .media:first-child {
     margin-top: -11px;
 }
 
-/*	设置结束	*/
+/*	脡猫脰脙陆谩脢酶	*/
 
 @media (min-width: 768px) {
 	.info-content h1{
@@ -200,7 +203,7 @@ section .media:first-child {
 	padding:0 20px ;
 }
 }
-/* 中型设备（台式电脑，992px 起） */
+/* 脰脨脨脥脡猫卤赂拢篓脤篓脢陆碌莽脛脭拢卢992px 脝冒拢漏 */
 @media (min-width: 992px) {
 	.info-content h1{
 		font-size:64px;
@@ -216,7 +219,7 @@ section .media:first-child {
 }
 	}
 
-/* 大型设备（大台式电脑，1200px 起） */
+/* 麓贸脨脥脡猫卤赂拢篓麓贸脤篓脢陆碌莽脛脭拢卢1200px 脝冒拢漏 */
 @media (min-width: 1200px) {
 	.info-content h1{
 		font-size:72px;
